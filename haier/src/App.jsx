@@ -14,39 +14,17 @@ const App = () => {
 
   return (
     <div>
-      <Router>
-        
+      <Router basename="/HaierStore">
         <Routes>
           <Route path="/" element={<Home />} />
 
-          <Route
-            path="productpage"
-            element={<ProductPage />}
-          >
-            <Route
-              path="iphonepage"
-              element={<IphonePage />}
-            />
-            <Route
-              path="samsungpage"
-              element={<SamsungPage />}
-            />
-            <Route
-              path="mencloth"
-              element={<MenCloth  />}
-            />
-            <Route
-              path="femalecloth"
-              element={<FemaleCloth />}
-            />
-            <Route
-              path="menshoe"
-              element={<MenShoe />}
-            />
-            <Route
-              path="femaleshoe"
-              element={<FemaleShoe />}
-            />
+          <Route path="productpage" element={<ProductPage />}>
+            <Route path="iphonepage" element={<IphonePage />} />
+            <Route path="samsungpage" element={<SamsungPage />} />
+            <Route path="mencloth" element={<MenCloth />} />
+            <Route path="femalecloth" element={<FemaleCloth />} />
+            <Route path="menshoe" element={<MenShoe />} />
+            <Route path="femaleshoe" element={<FemaleShoe />} />
           </Route>
         </Routes>
       </Router>
