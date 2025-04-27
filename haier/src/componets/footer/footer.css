@@ -5,7 +5,7 @@
 }
 
 footer{
-    background-image: url(../../assets/backgroundImg.jpg);
+    background-image: url(../../assets/footerBackground.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,6 +15,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 80px;
     padding: 20px;
+    margin-top: 1px;
 }

@@ -23,8 +23,8 @@
     width: 20%;
     position: absolute;
     top: 60px;
-    left: 980px;
-    /* border: 2px solid red; */
+    left: 1012px;
+    border: 1px solid brown;
     background-color: whitesmoke;
     padding: 10px;
     z-index: 100;

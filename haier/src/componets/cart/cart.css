@@ -9,7 +9,7 @@
     font-weight: bold;
     font-size: 1.5rem;
     margin-top: 10px;
-    margin-left: 4px;
+    margin-left: 5px;
 }
 
 .main-box{
@@ -32,6 +32,7 @@
 
 .empty{
     margin-top: 240px;
+    margin-left: 5px;
 }
 
 .list-group{
@@ -100,7 +101,7 @@
 .cart-total-price{
     position: fixed;
     font-weight: bold;
-    margin-left: 4px;
+    margin-left: 5px;
 }
 
 .clear-btn{
@@ -110,7 +111,7 @@
     padding-block: 0.3rem;
     border-radius: 5px;
     background-color:  #fbe7ca;
-    margin-left: 4px;
+    margin-left: 5px;
 }
 
 .clear-btn:hover{
