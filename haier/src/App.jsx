@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <div>
-      <Router basename="/HaierStore">
+      <Router>
         <Routes>
           <Route path="/" element={<Home />} />
 
