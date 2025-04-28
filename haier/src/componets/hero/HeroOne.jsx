@@ -4,7 +4,7 @@ import HomeProductCard from "../homeproductcard/HomeProductCard";
 import heroPhone from '../../assets/iphone15.webp';
 import heroPlatform from '../../assets/platformSneakers.webp';
 import heroOulylan from '../../assets/oulylan.webp';
-import heroMenSummer from '../../assets/MenSummer.webp'
+import heroMenSummer from '../../assets/menSummer.webp';
 import { Link } from "react-router-dom";
 
 

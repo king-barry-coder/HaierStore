@@ -55,18 +55,23 @@
 
 .image-one {
   width: 100%;
-  height: 180px;
+  /* height: 180px; */
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   border-radius: 10px;
   margin-bottom: 10px;
+  /* border: 2px solid red; */
+
 }
 
 .image-on {
-  max-width: 70%;
-  max-height: 80%;
+  /* border: 2px solid green; */
+  /* max-width: 70%;
+  max-height: 80%; */
+  width: 100%;
+  height: 250px;
   object-fit: contain;
 }
 
